@@ -29,6 +29,9 @@ function App() {
     getUser()
   }, []);
 
+
+  
+
   const confirmDelete = (slug) => {
     Swal.fire({
       title: "Are you sure",
